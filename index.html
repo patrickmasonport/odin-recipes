@@ -3,14 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/kimchi.html">Kimchi</a></li>
-        <li><a href="./recipes/makgeolli.html">Makgeolli</a></li>
-        <li><a href="./recipes/soondae.html">Soondae</a></li>
-    </ul>
+    <header>
+        <p class="Logo">Recipes</p>
+        <div class="header-links">
+            <a href="./recipes/kimchi.html">Kimchi</a>
+            <a href="./recipes/makgeolli.html">Makgeolli</a>
+            <a href="./recipes/soondae.html">Soondae</a>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-item hero-text">
+            <h1>Recipes</h1>
+            <p>This website contains recipes for Korean meals.</p>
+            <button>Sign up</button>
+        </div>
+        <div class="hero-item hero-image">
+            <img src="./images/kimchi.jpg" alt="Kimchi"/>
+        </div>
+    </div>
+    <div class="recipe-information">
+        <h2>Recipes</h2>
+        <div class="recipe-cards">
+            <div class="recipe-card">
+                <img src="./images/kimchi.jpg" alt="Kimchi"/>
+                <p>Kimchi</p>
+                <a href="./recipes/kimchi.html">Read more</a>
+            </div>
+            <div class="recipe-card">
+                <img src="./images/makgeolli.jpg" alt="Makgeolli"/>
+                <p>Makgeolli</p>
+                <a href="./recipes/makgeolli.html">Read more</a>
+            </div>
+            <div class="recipe-card">
+                <img src="./images/soondae.jpg" alt="Soondae"/>
+                <p>Soondae</p>
+                <a href="./recipes/soondae.html">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="quote">
+        <blockquote>
+            "For authentic and delicious Korean recipes, <a href="./index.html">Recipes</a> is the ultimate go-to website. It offers detailed instructions, helpful videos, and a vibrant community of food enthusiasts, making Korean cooking accessible and enjoyable for everyone."
+        </blockquote>
+        <p>- Thor</p>
+    </div>
+    <div class="cta-container">
+        <div class="cta">
+            <div class="cta-text content">
+                <h3>Call to action</h3>
+                <p>Sign up for our product</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </div>
+    <footer>Copyright The Odin Project 2024</footer>
 </body>
 </html>
