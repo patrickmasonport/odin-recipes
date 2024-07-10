@@ -1,1 +1,1 @@
-# odin-recipes
+This is a simple website to practise html.
